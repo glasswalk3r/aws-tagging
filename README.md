@@ -20,6 +20,7 @@ tagging in a standardized way.
 * Validation of input variables.
 * Generate tags as a `map` and also tags (`asg_tags`) that can be consumed by
 Auto Scaling Groups.
+* [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 ## Requirements
 
@@ -32,7 +33,6 @@ files as required to implement your own tags.
 2. Import the module into your other resource modules.
 3. Pass all required input variables.
 4. Use the module outputs (`tags` and `asg_tags`).
-5. [DRY](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself).
 
 ### Example
 
